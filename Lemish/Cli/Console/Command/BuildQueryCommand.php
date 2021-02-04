@@ -39,7 +39,7 @@
         protected function configure()
         {
             $this->setName('mysql:query:run');
-            $this->setDescription('This is my first console command.');
+            $this->setDescription('MySQL commands for Magento CLI');
 
             $this->addOption(
                 self::QUERY,
